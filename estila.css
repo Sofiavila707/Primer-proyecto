@@ -1,0 +1,16 @@
+body{
+background-color:palevioletred ;
+}
+img{
+    width:200px;
+    height: auto;
+}
+p{
+    font-family:'Times New Roman', Times, serif;
+}
+.subparrafo{
+    font-size: 1.2em;
+}
+#ultimoP{
+    color:lightpink;
+}
