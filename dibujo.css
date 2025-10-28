@@ -1,0 +1,43 @@
+body {
+    background-color: mistyrose;
+}
+#lienzo {
+    width: 800px;
+    height: 800px;
+    border: 1px black solid;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+#nocdibujo {
+     width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    background-color: rgb(252, 227, 255);
+    border-radius: 50%;
+    position:relative;
+}
+.ojos {
+     width: 20%;
+    height: 20%;
+    border: 1px black solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position:absolute
+}
+#ojoizq{
+left:10%
+}
+#ojoder{
+right:10%
+}
+#boca{
+    width: 10%;
+    height: 10%;
+    border: 1px black solid;
+    background-color: rgb(52, 152, 219);
+    border-radius: 50%;
+    position:absolute;
+    border-radius: 50%;
+}
