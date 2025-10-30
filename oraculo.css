@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(175, 154, 236);
+
+}
+#canva {
+    width: 1000px;
+    height: 1000px;
+    border: 1px black solid;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+   
+}
+#ojo1{
+     width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    background-color: rgb(29, 19, 134);
+    border-radius: 50%;
+    position:relative;
+    margin-bottom: 18%;
+}
+#ojo2{
+     width: 70%;
+    height: 70%;
+    border: 1px black solid;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position:absolute;
+      left: 15%;
+      top:15%;
+}
+#ojo3{
+     width: 50%;
+    height: 50%;
+    border: 1px black solid;
+    background-color: rgb(136, 203, 255);
+    border-radius: 50%;
+    position:absolute;
+    left:25%;
+    top:25%;
+}
+#ojo4{
+     width: 20%;
+    height: 20%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    position:absolute;
+    top: 40%;
+    left:40%;
+}
+#cuerpo{
+     width: 20%;
+    height: 50%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top: 100%;
+    left:40%;
+}
+.manos{
+     width: 20%;
+    height: 5%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:110%;
+}
+#manoizq{
+    left:20%;
+}
+#manoder{
+    left:60%;
+}
+.piernas{
+    width: 5%;
+    height: 15%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:150%;
+}
+#piernaizq {
+    left:42%;
+}
+#piernader {
+    left:53%;
+}
+.pies{
+  width: 10%;
+    height: 5%;
+    border: 1px black solid;
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:160%;
+}
+#pieizq{
+left:35%;
+}
+#pieder{
+left:55%;
+}
